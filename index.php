@@ -8,83 +8,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 </head>
 <style>
-#chatArea {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 40vh;
-}
-#chatArea > div{
-    width: 100%;
-}
-#chatArea__history{
-    height: 100%;
-    width: 100%;
-    outline:1px solid #ccc;
-    display:flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    overflow-y: scroll;
-}
-.chatArea__history--msg{
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-}
-.chatArea__history--msg p {
-    padding: 0px 6px;
-}
-.chatArea__history--msg p:nth-child(1) {
-    color: #999;
-}
-.chatArea__history--msg p:nth-child(2) {
-    color: #333;
-}
-.chatArea__history--msg p:nth-child(3) {
-    color: #000;
-}
-#chatArea__answer{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 100%;
-    outline:0px;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-}
-#chatArea__answer input{
-    outline:1px solid #ccc;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
-    padding-left: 16px;
-}
-#chatArea__answer--name {
-    width: 100px;
-}
-#chatArea__answer--name.disable {
+    #chatArea {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 40vh;
+    }
+    #chatArea > div{
+        width: 100%;
+    }
+    #chatArea__history{
+        height: 100%;
+        width: 100%;
+        outline:1px solid #ccc;
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        overflow-y: scroll;
+    }
+    .chatArea__history--msg{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+    }
+    .chatArea__history--msg p {
+        padding: 0px 6px;
+    }
+    .chatArea__history--msg p:nth-child(1) {
+        color: #999;
+    }
+    .chatArea__history--msg p:nth-child(2) {
+        color: #333;
+    }
+    .chatArea__history--msg p:nth-child(3) {
+        color: #000;
+    }
+    #chatArea__answer{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        width: 100%;
+        outline:0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #chatArea__answer input{
+        outline:1px solid #ccc;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 16px;
+    }
+    #chatArea__answer--name {
+        width: 100px;
+    }
+    #chatArea__answer--name.disable {
 
-    background-color: #00000011;
-}
-#chatArea__answer--btn {
-    width: 90px;
-    background: #ccc;
-    color: #000;
-}
-input#chatArea__answer--btn {
-    padding-left: 0px;
-}
-#chatArea__answer--msg {
-    width: 100%;
-}
-#chatArea__answer--btn:hover{
-    background: #666;
-    color: #fff;
-}
+        background-color: #00000011;
+    }
+    #chatArea__answer--btn {
+        width: 90px;
+        background: #ccc;
+        color: #000;
+    }
+    input#chatArea__answer--btn {
+        padding-left: 0px;
+    }
+    #chatArea__answer--msg {
+        width: 100%;
+    }
+    #chatArea__answer--btn:hover{
+        background: #666;
+        color: #fff;
+    }
 </style>
 
 <body>
